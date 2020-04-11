@@ -12,6 +12,6 @@ public class Test {
 
 	}
 	public void m1() {}
-	public void m2() {}
+	public int m2() {return 0;}
 
 }
