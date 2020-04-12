@@ -12,7 +12,4 @@ public class Calculator {
 	System.out.println("The modulus Result is: "+m.mod(34, 22));
 	System.out.println("Thanks u for using Git");
  }
- public static void m1() {
-	 
- }
 }
