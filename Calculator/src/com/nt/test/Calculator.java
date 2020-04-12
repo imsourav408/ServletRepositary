@@ -1,5 +1,6 @@
 package com.nt.test;
 
+import com.nt.advance.Advancedmath;
 import com.nt.beans.Mathematics;
 
 public class Calculator {
@@ -10,6 +11,7 @@ public class Calculator {
 	System.out.println("Multiplication Result is: "+m.mul(24, 21));
 	System.out.println("The Division Result is: "+m.div(34, 22));
 	System.out.println("The modulus Result is: "+m.mod(34, 22));
+	System.out.println("The root square Result is: "+new Advancedmath().squareRoot(50));
 	System.out.println("Thanks u for using Git");
  }
 }
