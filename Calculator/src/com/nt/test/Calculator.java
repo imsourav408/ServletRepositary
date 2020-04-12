@@ -8,6 +8,8 @@ public class Calculator {
 	System.out.println("The addition Result is: "+m.sum(20,30));
 	System.out.println("The substraction Result is: "+m.sub(34, 22));
 	System.out.println("Multiplication Result is: "+m.mul(24, 21));
-	System.out.println("Mod Result is: "+m.mod(24, 21));
+	System.out.println("The Division Result is: "+m.div(34, 22));
+	System.out.println("The mod Result is: "+m.mod(34, 22));
+
  }
 }
