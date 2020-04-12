@@ -10,6 +10,8 @@ public class Calculator {
 	System.out.println("Multiplication Result is: "+m.mul(24, 21));
 	System.out.println("The Division Result is: "+m.div(34, 22));
 	System.out.println("The modulus Result is: "+m.mod(34, 22));
-
+ }
+ public static void m1() {
+	 
  }
 }
