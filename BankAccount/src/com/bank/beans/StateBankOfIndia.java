@@ -8,7 +8,7 @@ public class StateBankOfIndia implements Bank {
 	long mob;
 	long aadharNo;
 	double amount;
-	public StateBankOfIndia(String accHName,long mob,long aadharNo,double amount) throws IllegalArgumentException {
+	public StateBankOfIndia() throws IllegalArgumentException {
 		String accNo="";
 		for(int i=0;i<10;i++) {
 			accNo=accNo+(int)(Math.random()*10);

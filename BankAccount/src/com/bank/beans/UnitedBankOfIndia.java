@@ -8,7 +8,7 @@ public class UnitedBankOfIndia implements Bank {
 	long mob;
 	long aadharNo;
 	double amount;
-	public UnitedBankOfIndia(String accHName,long mob,long aadharNo,double amount) throws IllegalArgumentException {
+	public UnitedBankOfIndia() throws IllegalArgumentException {
 		String accNo="";
 		for(int i=0;i<10;i++) {
 			accNo=accNo+(int)(Math.random()*10);

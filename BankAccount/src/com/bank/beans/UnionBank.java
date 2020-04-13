@@ -8,7 +8,7 @@ public class UnionBank implements Bank {
 	long mob;
 	long aadharNo;
 	double amount;
-	public UnionBank(String accHName,long mob,long aadharNo,double amount) throws IllegalArgumentException {
+	public UnionBank() throws IllegalArgumentException {
 		String accNo="";
 		for(int i=0;i<10;i++) {
 			accNo=accNo+(int)(Math.random()*10);
