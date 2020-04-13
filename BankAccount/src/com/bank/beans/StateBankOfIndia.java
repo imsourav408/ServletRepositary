@@ -14,14 +14,6 @@ public class StateBankOfIndia implements Bank {
 			accNo=accNo+(int)(Math.random()*10);
 		}
 		this.accNo=Long.parseLong(accNo);
-		this.accHName=accHName;
-		this.mob=mob;
-		this.aadharNo=aadharNo;
-		if(amount<=0) {
-			throw new IllegalArgumentException("Enter Valid Balance only");
-		}
-		else
-			this.amount=amount;
 	}
 	@Override
 	public void withdraw(double amount) throws InSufficientFoundException, IllegalArgumentException {
@@ -32,6 +24,21 @@ public class StateBankOfIndia implements Bank {
 			throw new IllegalArgumentException();
 		else
 		 this.amount=this.amount-amount;
+	}
+	public void setAccHName(String accHName) {
+		this.accHName = accHName;
+	}
+	public void setMob(long mob) {
+		this.mob = mob;
+	}
+	public void setAadharNo(long aadharNo) {
+		this.aadharNo = aadharNo;
+	}
+	public void setAmount(double amount) {
+		if(amount<=0) {
+			throw new IllegalArgumentException("Enter Valid Balance Only");
+		}
+		this.amount = amount;
 	}
 	@Override
 	public void deposite(double amount) throws InSufficientFoundException, IllegalArgumentException {
