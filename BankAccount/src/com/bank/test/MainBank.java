@@ -21,7 +21,7 @@ public class MainBank {
 			return;
 		}
 		catch(Exception e) {
-			System.out.println("Internal Problem Occur");
+			System.out.println("Internal Problem Occurs");
 			e.printStackTrace();
 			return;
 		}
