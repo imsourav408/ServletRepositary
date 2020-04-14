@@ -4,6 +4,7 @@ import com.bank.exception.InSufficientFoundException;
 
 public class UnionBank implements Bank {
 	private static String BankName="Union Bank";
+	private static String IFSC="UNI123RUP";
 	private String accHName;
 	private long accNo;
 	private long mob;
@@ -51,6 +52,7 @@ public class UnionBank implements Bank {
 	@Override
 	public void display() {
 		System.out.println("Bank: "+BankName);
+		System.out.println("IFSC: "+IFSC);
 		System.out.println("Account Number: "+accNo);
 		System.out.println("Account Holder Name: "+accHName);
 		System.out.println("Mobile: "+mob);
