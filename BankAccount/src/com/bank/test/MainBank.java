@@ -73,6 +73,10 @@ public class MainBank {
 			}
 		}
 	}
+<<<<<<< HEAD
 	public void m2() {}
+=======
+	public void m1() {}
+>>>>>>> stash
 }
 
