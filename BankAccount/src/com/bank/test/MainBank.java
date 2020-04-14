@@ -73,5 +73,6 @@ public class MainBank {
 			}
 		}
 	}
+	public void m2() {}
 }
 
