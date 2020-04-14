@@ -20,6 +20,9 @@ public class MainBank {
 			System.out.println("Sorry!! Bank is not available");
 			return;
 		}
+		catch(NullPointerException npe) {
+			npe.printStackTrace();
+		}
 		catch(Exception e) {
 			System.out.println("Internal Problem Occurs");
 			e.printStackTrace();
