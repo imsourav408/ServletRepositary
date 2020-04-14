@@ -33,7 +33,7 @@ public class MainBank {
 		b.setAadharNo(sc.nextLong());
 		System.out.println("Enter Your Mobile Number:");
 		b.setMob(sc.nextLong());
-		System.out.println("enter the balance you want to save");
+		System.out.println("Enter the balance you want to save in your account");
 		b.setAmount(sc.nextDouble());
 		loop:while(true){
 			System.out.println("choose any options:");
