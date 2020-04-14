@@ -3,11 +3,12 @@ package com.bank.beans;
 import com.bank.exception.InSufficientFoundException;
 
 public class UnitedBankOfIndia implements Bank {
-	String accHName;
-	long accNo;
-	long mob;
-	long aadharNo;
-	double amount;
+	private static String BankName="United Bank Of India";
+	private String accHName;
+	private long accNo;
+	private long mob;
+	private long aadharNo;
+	private double amount;
 	public UnitedBankOfIndia() throws IllegalArgumentException {
 		String accNo="";
 		for(int i=0;i<10;i++) {
@@ -49,6 +50,7 @@ public class UnitedBankOfIndia implements Bank {
 	}
 	@Override
 	public void display() {
+		System.out.println("Bank: "+BankName);
 		System.out.println("Account Number: "+accNo);
 		System.out.println("Account Holder Name: "+accHName);
 		System.out.println("Mobile: "+mob);
